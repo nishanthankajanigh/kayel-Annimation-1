@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!-- Setup HTML -->
+<html dir='ltr' lang='en-ca'>
+    <!-- Put metadata in head -->
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width' minimum-scale='1.0'>
+        <link rel='stylesheet' href='css/style.css'>
+        <link href="/https://fonts.googleapis.com/css?family=Roboto" />
+
+        <title>Icons Page</title>
+    </head>
+
+    <!-- Put content for user -->
+    <body>
+
+        <!-- links back a directory to home page -->
+        <header>
+            <h1><a href="../index.html">Tech-Ni Gallery</a></h1>
+        </header>
+
+          <!-- Put Your Project-->
+       <section>
+           <p style= "Color:white";>My Project 1 Animated Painting Page </p>
+
+
+  <svg  viewBox="0, 0, 1600, 900">
+      <!-- With  point , it's a shorthand of cordinates---->
+   
+    <rect id="r2" class="rect" x="0" y="600"></rect>
+    
+    
+    
+    <g id="cloud">
+<ellipse class="clouds" cx="500" cy="200" rx="100" ry="50"></ellipse>
+<ellipse class="clouds" cx="600" cy="240" rx="100" ry="30"></ellipse>
+<ellipse class="clouds" cx="700" cy="200" rx="120" ry="70"></ellipse>
+</g>
+      
+ <g id="cloud2">
+<ellipse class="cloudss" cx="100" cy="200" rx="100" ry="50"></ellipse>
+<ellipse class="cloudss" cx="180" cy="150" rx="100" ry="80"></ellipse>
+<ellipse class="cloudss" cx="180" cy="200" rx="100" ry="70"></ellipse>
+</g>
+      <g id="bird">
+      <polygon id="p1" class="polygon" points="700,1000 1200,800 100,600 200,350"></polygon> 
+      <polygon id="p2" class="polygon" points="700,1000 1200,800 100,600 200,350"></polygon>
+    </g>
+      
+     <circle id="c1" class="circle" cx="150" cy="400" r="200"></circle>
+      <ellipse class="shedow" cx="150" cy="650" rx="100" ry="50"></ellipse>
+      
+      <g id="boat">
+      <polygon id="p4" class="polygon" points="300,500 50,500 100,600 250,600" ></polygon>
+      <polygon id="p5" class="polygon" points="300,650 50,650 100,600 250,600" ></polygon>
+    </g>
+       <path d="M 0 800 C 600 1000, 650 500, 2000 800 " stroke="white" fill="transparent" stroke-width="5px"/>
+      
+      
+      <path d="M 0 650 C 600 1000, 550 315, 2000 750 " stroke="white" fill="transparent" stroke-width="5px"/>
+      
+    </svg>
+    
+       </section>
+        
+        <!-- Add our GSAP -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+        <!-- Use GSAP Locally (if you don't have internet connection) -->
+        <!-- <script src="js/vendor/gsap.min.js"></script> -->
+
+        <!-- Add your JS Script -->
+        <script type='text/Javascript' src="js/script.js"></script>
+    </body>
+
+</html>

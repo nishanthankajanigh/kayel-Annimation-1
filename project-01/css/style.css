@@ -1,0 +1,191 @@
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 12px;
+  color: #eeee;
+  background: rgba(0.1, 0.1, 0.1, 0.9);
+  z-index: 1000;
+}
+
+h1,
+h2 {
+  margin: 12px 18px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  opacity: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 12px;
+  /* border: solid 1px magenta; */
+}
+
+section:first-of-type {
+  margin-top: 90px;
+}
+
+/* ****** YOUR PROJECT 2 SVG CSS HERE MAKE SURE THERE ARE NO CONFLICTS WITH ABOVE */
+body {
+  background: #3A2F0B;
+  animation: color-me-in 20s;
+}
+
+@keyframes color-me-in {
+
+  0% {
+    background: orange;
+  }
+  
+  100% {
+    background:#3A2F0B;
+  }
+}
+
+
+
+
+*{margin:0;
+padding:0;}
+
+#r1{
+    width: 100%;
+    height: 600px;
+    fill:#FFF380;
+}
+
+
+
+#r2{
+    width: 100%;
+    height: 650px;
+    fill:#8EEBEC;
+    
+}
+#c1{
+   
+    fill:#D14009;
+    
+}
+
+#c1:hover{
+     fill:white;
+    
+}
+
+
+
+
+
+
+#p1{
+    fill:crimson;
+    transform: translate(-20px, -50px);
+    transform:scale(0.15) translate(100px ,100px);
+}
+
+
+
+
+
+
+#p2{
+ 
+    fill:black;
+    transform: translate(-10px, -10px);
+    transform:scale(0.1) translate(3000px ,800px);
+}
+#p4{
+    fill:#2B1B17;
+    
+  animation: move 30s alternate infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(900px);
+  }
+}
+
+.shedow{
+    fill:gray;
+    opacity: 0.25;
+}
+
+
+#p5{
+    fill:red;
+    opacity: 0.15;
+
+
+  animation: move 30s alternate infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(900px);
+  }
+}
+
+
+
+.clouds{
+   fill:#E5E4E2; 
+    
+     
+}
+
+
+.cloudss{
+   fill:#E5E4E2; 
+    
+}
+
+
+.cloud2 {
+    
+}
+#cloud {
+  animation: move 18s alternate infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(900px);
+  }
+}
+
+#bird {
+    
+    animation: move 18s alternate infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(900px);
+  }
+    
+}
+
+#cloud2 {
+  animation: move 12s alternate infinite;
+}
+
+@keyframes move {
+  to {
+    transform: translate(900px);
+  }
+}
+
